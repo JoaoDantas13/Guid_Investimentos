@@ -1,4 +1,4 @@
-import { Component, ViewChild } from "@angular/core";
+import { Component, OnInit, ViewChild } from "@angular/core";
 
 import {
   ChartComponent,
@@ -8,6 +8,7 @@ import {
   ApexXAxis,
   ApexTitleSubtitle
 } from "ng-apexcharts";
+import { ApiService } from "./service/api.service";
 
 export type ChartOptions = {
   series: ApexAxisChartSeries;
@@ -22,12 +23,12 @@ export type ChartOptions = {
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })
-export class AppComponent {
-  title = "Guid Investimentos"
+export class AppComponent implements OnInit {
+
   @ViewChild("chart") chart!: ChartComponent;
   public chartOptions: Partial<ChartOptions>;
 
-  constructor() {
+  constructor(private Api: ApiService) {
     this.chartOptions = {
       series: [
         {
@@ -281,7 +282,7 @@ export class AppComponent {
         height: 350
       },
       title: {
-        text: "Guid Investimentos",
+        text: "Guide Investimentos",
         align: "left"
       },
       xaxis: {
@@ -295,11 +296,21 @@ export class AppComponent {
     };
   }
 
+  ngOnInit(): void {
+    this.getAll();
+  }
+
+  getAll() {
+    this.Api.getAll().subscribe((retorno) => {
+      console.log('retorno', retorno);
+    })
+  }
+
   public generateDayWiseTimeSeries(baseval: any, count: any, yrange: any) {
-    var i = 0;
-    var series = [];
+    let i = 0;
+    let series = [];
     while (i < count) {
-      var y =
+      let y =
         Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
 
       series.push([baseval, y]);
