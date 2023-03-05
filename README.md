@@ -1,4 +1,4 @@
-# GUID Investimentos
+# Guid Investimentos
 
 Ao fazer o clone do projeto executar o comando npm install para instalação das dependencias.
 
