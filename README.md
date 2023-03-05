@@ -1,5 +1,8 @@
 # Guid Investimentos
 
+O projeto esta mostrando de forma pratica e tecnologia os ulitmos 30 pregões em um garfico com detalhamento e espeficicando a cada horario os resultados dos pregões.
+
+
 Ao fazer o clone do projeto executar o comando npm install para instalação das dependencias.
 
 Caso de problema no grafico, executar o comando npm install -S apexcharts ng-apexcharts@latest.
