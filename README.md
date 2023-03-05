@@ -1,7 +1,6 @@
 # Guid Investimentos
 
-O projeto esta mostrando de forma pratica e tecnologia os ulitmos 30 pregões em um garfico com detalhamento e espeficicando a cada horario os resultados dos pregões.
-
+O projeto esta mostrando de forma pratica e tecnologica os ulitmos 30 pregões em um grafico com detalhamento e especificações, consiste em consultar a variação do preço de um ativo  nos últimos 30 pregões.
 
 Ao fazer o clone do projeto executar o comando npm install para instalação das dependencias.
 
