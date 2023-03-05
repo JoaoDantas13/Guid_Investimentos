@@ -1,18 +1,24 @@
 <div class="geral">
   <header>
     <div class="div-logo">
-      <img src="https://www.guide.com.br/wp-content/themes/theme_guide/build/css/imagens/layout/logo.svg?v234" alt="" class="logo">
+      <img
+        src="https://www.guide.com.br/wp-content/themes/theme_guide/build/css/imagens/layout/logo.svg?v234"
+        alt=""
+        class="logo"
+      />
     </div>
   </header>
   <div class="div-grafico">
     <div id="chart">
       <apx-chart
-      [series]="chartOptions.series!"
-      [chart]="chartOptions.chart!"
-      [xaxis]="chartOptions.xaxis!"
-      [title]="chartOptions.title!"
+        [series]="chartOptions.series!"
+        [chart]="chartOptions.chart!"
+        [xaxis]="chartOptions.xaxis!"
+        [dataLabels]="chartOptions.dataLabels!"
+        [grid]="chartOptions.grid!"
+        [stroke]="chartOptions.stroke!"
+        [title]="chartOptions.title!"
       ></apx-chart>
     </div>
   </div>
 </div>
-
