@@ -3,21 +3,28 @@
   margin: 35px auto;
 }
 
-.div-grafico{
+.div-grafico {
   background-color: white;
   max-width: 650px;
   margin: 35px auto;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
-.div-logo{
+.div-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 30px;
 }
 
-footer{
-  height: 50px;
+.div-grafico-geral {
+  display: flex;
+}
+
+.div-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
 }
