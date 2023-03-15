@@ -1,5 +1,7 @@
 # Guid Investimentos - Teste
 
+OBSERVAÇÃO: USEI UM SIMULADOR DE API COM O JSON REAL , O LINK DA API ESTA COM PROBLEMA DE CORS , COMO PRECISO MANDAR O TESTE O QUANTO ANTES FIZ UMA SIMULAÇÃO DE API COM O RETORNO REAL DO JSON.
+
 O projeto esta mostrando de forma pratica e tecnologica, os ulitmos 30 pregões em um grafico com detalhamento e especificações, consiste em consultar a variação do preço de um ativo  nos últimos 30 pregões.
 
 Ao fazer o clone do projeto executar o comando npm install para instalação das dependencias.
