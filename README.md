@@ -14,6 +14,9 @@ Utilizei rotas para a usar os componentes, vale ressaltar que também sei utiliz
 Utilizei componentização para não jogar tudo dentro do app.components e deixar o projeto rapido, organizado e facil para manutenção.
 Utilizei teste Unitarios , para inicializar rodar o comando ng teste
 
+![image](https://user-images.githubusercontent.com/69554368/225427269-585fdb46-4912-48dc-be4c-60747c9c55f3.png)
+
+
 Lembre-te:
 
 Para inicializar o projeto roda o comando : npm start.
