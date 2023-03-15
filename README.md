@@ -1,27 +1,25 @@
-# GUID
+# Guid Investimentos - TESTE
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+OBSERVAÇÃO: USEI UM SIMULADOR DE API COM O JSON REAL , O LINK DA API ESTA COM PROBLEMA DE CORS , COMO PRECISO MANDAR O TESTE O QUANTO ANTES FIZ UMA SIMULAÇÃO DE API COM O RETORNO REAL DO JSON.
 
-## Development server
+O projeto esta mostrando de forma pratica e tecnologica, os ulitmos 30 pregões em um grafico com detalhamento e especificações, consiste em consultar a variação do preço de um ativo  nos últimos 30 pregões.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Ao fazer o clone do projeto, executar o comando npm install para instalação das dependencias.
 
-## Code scaffolding
+Caso haja problema no grafico, executar o comando npm install -S apexcharts ng-apexcharts@latest.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para o backend usei o plugin JsonServe que é um back-end rápido para prototipagem e mocking, como a API esta com erro de Cors, e o meu prazo para entregar teria que ser o mais rapido possivel, criei um db.json com o retorno da API , ou seja, é um backend usando o JsonServe com o json do retorno da api. Caso ocorra algum problema para instalar essa dependecia, executar o comando npm i json-server.
 
-## Build
+Utilizei rotas para a usar os componentes, vale ressaltar que também sei utilizar rotas GUARD para enventuais projetos.
+Utilizei componentização para não jogar tudo dentro do app.components e deixar o projeto rapido, organizado e facil para manutenção.
+Utilizei teste Unitarios , para inicializar rodar o comando ng teste
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![image](https://user-images.githubusercontent.com/69554368/225427269-585fdb46-4912-48dc-be4c-60747c9c55f3.png)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Lembre-te:
 
-## Running end-to-end tests
+Para inicializar o projeto roda o comando : npm start.
+Para inicializar o backend roda o comando: json-server --watch backend/db.json.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Ambos os comandos precisam ser em CMD diferentes.
