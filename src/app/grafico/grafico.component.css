@@ -1,0 +1,53 @@
+#chart {
+  max-width: 650px;
+  margin: 35px auto;
+}
+
+.div-grafico {
+  background-color: white;
+  max-width: 650px;
+  margin: 35px auto;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 10px;
+}
+
+.div-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.div-grafico-geral {
+  display: flex;
+}
+
+.div-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+}
+
+.div-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  border: transparent;
+  background: #135527;
+  color: #ffff;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:hover {
+  transition: 0.6s;
+  background-color: #67d286;
+}

@@ -1,0 +1,28 @@
+<div class="geral">
+  <header>
+    <div class="div-logo">
+      <img
+        src="https://www.guide.com.br/wp-content/themes/theme_guide/build/css/imagens/layout/logo.svg?v234"
+        alt=""
+        class="logo"
+      />
+    </div>
+  </header>
+  <div class="div-p">
+    <img
+      src="../../assets/img/2022-08-01_17-26_mainImage.jpg"
+      alt="Banner Guide"
+      class="banner"
+    />
+    <div class="div-btn">
+      <h2>
+        Para entender sobre a variação do ativo , precione o botão para mais
+        detalhes
+      </h2>
+      <button (click)="grafico()">
+        <span class="loader" *ngIf="loading"></span>
+        <span [ngClass]="loading == true ? 'noneText' : ''">Grafico</span>
+      </button>
+    </div>
+  </div>
+</div>
